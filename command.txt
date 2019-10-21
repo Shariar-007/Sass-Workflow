@@ -1,0 +1,43 @@
+1. 
+Create scss/Exapmle.scss file
+
+2. 
+Create css/Exapmle.css file
+
+3.
+sass scss/Example.scss:css/Example.css 
+or
+sass scss/Example.scss:css/Example.css --style compact 
+or
+sass scss/Example.scss:css/Example.css --style cmpressed
+or
+sass scss/Example.scss:css/Example.css --style compresse
+or
+sass scss/Example.scss:css/Example.css --style expanded --sourcemap=none
+
+4. 
+sass --watch scss/Example.scss:css/Example.css
+or
+sass --watch scss/Example.scss:css/Example.css --style compact 
+or
+sass --watch scss/Example.scss:css/Example.css --style cmpressed
+or
+sass --watch scss/Example.scss:css/Example.css --style compresse
+or
+sass --watch scss/Example.scss:css/Example.css --style expanded --sourcemap=none
+
+5. we can specfy folder rather than specific file
+sass scss:css
+or
+sass scss/:css --style compact
+or
+sass scss:css --style cmpressed
+or
+sass scss:css --style compresse
+or
+sass scss:css --style expanded --sourcemap=none
+
+6.
+we can also specify folder rather than file in serial 4
+
+7.then link up css file in html file using <link></link>
